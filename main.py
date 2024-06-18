@@ -13,3 +13,7 @@ with col2:
     Hi, I am Navendu! I am a Tech Product Manager, building awesome products using ML amd Deep Learning. 
     I have 18 years of experience and i have worked in 6 companies"""
     st.info(content)
+
+content2 = """
+Below you can find some of the apps i have built in Python. Feel free to contact me!"""
+st.write(content2)
