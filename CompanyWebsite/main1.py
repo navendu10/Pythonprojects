@@ -31,7 +31,7 @@ with col1:
         # Add member's role in the company
         st.write(row["role"])
         # Add member's photo
-        st.image("images" + row["image"])
+        st.image("images" + row["images"])
 
 # Add content to the second column
 with col2:
@@ -42,7 +42,7 @@ with col2:
         # Add member's role in the company
         st.write(row["role"])
         # Add member's photo
-        st.image("image/" + row["image"])
+        st.image("images/" + row["images"])
 
 
 with col3:
@@ -53,7 +53,7 @@ with col3:
         # Add member's role in the company
         st.write(row["role"])
         # Add member's photo
-        st.image("image/" + row["image"])
+        st.image("images/" + row["images"])
 
 
 
