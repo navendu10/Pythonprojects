@@ -20,7 +20,7 @@ st.subheader("Our Team")
 col1, col2, col3 = st.columns(3)
 
 # Make a dataframe with the company members
-df = pandas.read_csv("CompanyWebsite/data.csv")
+df = pandas.read_csv(r'D:\Navendu\PythonProjects\pythonProject\CompanyWebsite\data.csv')
 
 # Add content to the first column
 with col1:
