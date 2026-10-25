@@ -1,2 +1,19 @@
-.venv
-.idea
+# Secrets
+.env
+
+# Virtual environments
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# IDEs / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Generated output
+output/
